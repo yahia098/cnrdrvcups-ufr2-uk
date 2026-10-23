@@ -1,0 +1,18 @@
+pkgbase = cnrdrvcups-ufr2-uk
+	pkgdesc = Canon UFR II Printer Driver for Linux
+	pkgver = 6.40
+	pkgrel = 2
+	arch = x86_64
+	license = custom
+	makedepends = rpm-tools
+	makedepends = cpio
+	depends = cups
+	depends = gtk3
+	depends = jbigkit
+	depends = libgcrypt
+	depends = libjpeg-turbo
+	options = !strip
+	source = https://gdlp01.c-wss.com/gds/8/0100007658/51/linux-UFRII-drv-v640-m17n-05.tar.gz
+	sha256sums = SKIP
+
+pkgname = cnrdrvcups-ufr2-uk
